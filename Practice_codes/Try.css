@@ -1,0 +1,114 @@
+table,
+td {
+    border: 1px solid #333;
+    background-color: aquamarine;
+    color: black;
+}
+
+thead,
+tfoot {
+    background-color: powderblue;
+    color: black;
+}
+
+.done {
+    color: grey;
+}
+
+main {
+    /* color: blue; */
+}
+
+#clear {
+    color: white;
+    background-color: reda;
+}
+
+#hv:hover {
+    background-color: red;
+    color: aquamarine;
+}
+
+#hv:hover:after {
+    background-color: blueviolet;
+}
+
+h1:hover {
+    color: blueviolet;
+    background-color: olivedrab;
+}
+
+#one {
+    border: 10px;
+    /* border-bottom: # */
+    border-color: black;
+    background-color: #720026;
+    border-style: solid;
+    /* width: 100px; */
+}
+
+#two {
+    border: 10px;
+    /* border-bottom: # */
+    border-color: black;
+    background-color: #ce4257;
+    border-style: solid;
+    /* width: 100px; */
+}
+
+#three {
+    border: 10px;
+    /* border-bottom: # */
+    border-color: black;
+    background-color: #ff7f51;
+    border-style: solid;
+    /* width: 100px; */
+}
+
+#butt {
+    color: aqua;
+    border-width: 10px;
+    border-color: olive;
+    border-style: groove;
+}
+
+#butt:hover {
+    color: blueviolet;
+}
+
+#wd {
+    background-color: red;
+    width: 800%;
+    height: 800%;
+    border: #720026;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}

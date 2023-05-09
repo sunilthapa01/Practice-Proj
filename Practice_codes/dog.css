@@ -1,0 +1,49 @@
+#head {
+
+    text-align: center;
+    color: #9d0208;
+}
+
+.card {
+
+    width: 210px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 500px;
+
+
+
+}
+
+body {
+    background-color: #b8b8ff;
+}
+
+img {
+
+    width: 200px;
+    border: 5px rgb(255, 0, 0) solid;
+    border-radius: 50%;
+}
+
+#butt:hover {
+
+    color: #f25c54;
+    background-color: #9d0208;
+    /* padding: 10%; */
+}
+
+#butt {
+
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
+span {
+    background-color: #9d0208;
+    border: 1px solid black;
+
+}

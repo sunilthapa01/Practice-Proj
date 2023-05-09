@@ -1,0 +1,65 @@
+#second {
+
+   background-color: red;
+   width: 500px;
+   height: 500px;
+   margin-top: 10%;
+   margin-left: 10%;
+   border: 5px solid #d90429;
+   opacity: 5;
+}
+
+div {
+
+   background-color: #6a040f;
+   width: 300px;
+   height: 300px;
+
+}
+
+#WD {
+
+   background-color: #7209b7;
+   width: 150px;
+   height: 150px;
+
+}
+
+#second {
+
+   background-color: #06d6a0;
+   width: 75px;
+   height: 75px;
+   opacity: 5;
+
+}
+
+.circle {
+
+   width: 200px;
+   height: 200px;
+   background-color: #780000;
+   transition: 1s;
+
+
+}
+
+.circle:hover {
+
+   background-color: #2ec4b6;
+   border-radius: 50%;
+}
+
+#one div {
+   width: 100px;
+   height: 100px;
+   background-color: #7209b7;
+   margin: 20px;
+   transition: margin-left 3s;
+}
+
+#one:hover div {
+
+   margin-left: 500px;
+   border-radius: 50%;
+}
